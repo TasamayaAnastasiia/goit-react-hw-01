@@ -14,5 +14,5 @@ const FriendList = props => {
         </ul>
 
     );
-}
+} 
 export default FriendList;
