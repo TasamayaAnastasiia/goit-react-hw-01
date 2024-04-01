@@ -1,0 +1,26 @@
+.table {
+    width: 600px;
+    height: 400px;
+    border-collapse: collapse;
+}
+.containerTitle {
+    background-color: #333538;
+}
+.cellTitle {
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: 2px solid black;
+}
+.rowData {
+    border: 2px solid black;
+}
+.rowData:nth-child(even) {
+    background-color: #dedede;
+}
+.cellData {
+    padding: 0;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+}

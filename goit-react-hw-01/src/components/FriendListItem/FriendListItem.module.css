@@ -1,0 +1,15 @@
+.boxInfUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.greenText {
+    font-size: 13px;
+    color: green;
+}
+.redText {
+    composes: greenText;
+    color: red;
+}
